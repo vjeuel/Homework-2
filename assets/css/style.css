@@ -1,0 +1,101 @@
+html {
+   font-size: 10px;
+}
+
+h1 {
+   font-family: 'Nanum Myeongjo', serif;
+   color: #CEA11C;
+}
+
+h2, h3, h4 {
+   font-family: 'Inconsolata', monospace;
+   color: #fd0;
+   letter-spacing: 1px;
+   word-spacing: 5px;
+}
+
+h1 {
+   font-size: 8rem;
+}
+
+h2 {
+   font-size: 3rem;
+}
+
+h3 {
+   letter-spacing: 1px;
+   font-size: 2rem;
+}
+
+/* NAV */
+nav {
+   background-color: #fd0;
+   height: 15rem;
+   padding: 0 5%;
+   align-items: center;
+}
+
+.bd-highlight {
+   margin-bottom: 0;
+}
+
+.logo {
+   background-image: url(/assets/Images/Logo-full.svg);
+   background-repeat: no-repeat;
+   margin: 0 auto;
+   height: 15rem;
+   width: 15rem;
+   border: red solid 2px;
+}
+
+
+
+
+/* JUMBOTRON */
+.jumbotron {
+   height: 100vh;
+   margin: 0;
+   background: linear-gradient(120deg, #72727d, #000);
+}
+
+.jumbotron h1 {
+   margin-top: 20%;
+   margin-bottom: 3rem;
+}
+
+.jumbotron h2 {
+   margin-bottom: 3rem;
+}
+
+.jumbotron span {
+   word-spacing: 1rem;   
+}
+
+.col-9 {
+   padding-left: 15rem;
+}
+
+
+
+
+/*****************************************/
+/* FONTS */
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Inconsolata', monospace;
+
+
+/*****************************************/
+/* COLORS */
+.colors {
+   color: #72727D;
+   color: #000;
+   color: #FD0;
+   color: #CEA11C;
+   color: #F2F2F2;
+   
+   color: rgba 114 114 125 1;
+   color: rgba 0 0 0 1;
+   color: rgba 255 251 0 1;
+   color: rgba 206 161 28 1;
+   color: rgba 242 242 242 1;
+}
