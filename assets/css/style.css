@@ -106,7 +106,7 @@ nav {
 
 /* Light Bulb with Sepia color change */
 .bulb {
-   background: url(assets/Images/pics/terry-vlisidis-WsEbnsnKbUE-unsplash.jpg);
+   background: url(/assets/images/terry-vlisidis-WsEbnsnKbUE-unsplash.jpg);
    background-size: contain;
    background-repeat: no-repeat;
    background-position: center center;
