@@ -13,37 +13,39 @@
 <body>
    
    <main class="jumbotron">
+      <!-- Decided to put the nav inside the Jumbotron to maintain the whole page in 100vh, without having excess scroll in the bottom of the page -->
       <nav class="mx-auto">
+         <!-- Navigation for Large Screens -->
          <div class="row nav-lg-screen">
-            <figure class="col-sm-2">
+            <figure class="col-sm-3">
                <a href="">
                   <img class="logo" src="./images/Logo-grafk.svg" alt="">
                </a>
             </figure>
-            
-            <div class="col-sm-10 nav-menu">
-               <a href="">contact</a>
+            <!-- Navigation Menu -->
+            <div class="col-sm-9 float-right nav-menu">
+               <a href="/contact.html">contact</a>
                <a href="">projects</a>
                <a href="">about</a>
             </div>
          </div>   
-
+         <!-- Navigation for Mobile Screens -->
          <div class="mx-auto nav-mobile">
             <figure class="row">
                <a href="">
-                  <img class="logo" src="./images/terry-vlisidis-WsEbnsnKbUE-unsplash.jpg" alt="">
+                  <img class="logo" src="./images/Logo-grafk.svg" alt="">
                </a>
             </figure>
-         
+            <!-- Navigation Menu -->
             <div class="row nav-menu">
-               <a href="">contact</a>
+               <a href="/contact.html">contact</a>
                <a href="">projects</a>
                <a href="">about</a>
             </div>
          </div>
       </nav>
 
-
+      <!-- About me Information -->
       <div class="container-fluid row">
          <div class="col-md-6 about-me">
                <h1>Hi! I'm Jeuel</h1>
