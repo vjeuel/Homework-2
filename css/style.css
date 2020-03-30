@@ -275,6 +275,30 @@ footer {
 }
 
 
+/*****************************************/
+/* PROJECTS */
+.container {
+}
+
+.project-box {
+   padding: 2rem;
+   margin-top: 4rem;
+}
+
+.project-box img {
+   background-image: url(/images/IMG-20180715-WA0060.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   height: 25rem;
+   width: 25rem;
+   box-shadow: 0 0 1rem #fd0;
+}
+
+.project-box a {
+   text-emphasis: none;
+   color: #000000;
+}
 
 
 /*****************************************/
