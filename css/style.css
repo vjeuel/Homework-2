@@ -337,22 +337,53 @@ footer {
 /* Projects container */
 .project-box {
    padding: 2rem;
-   margin-top: 4rem;
+   margin-top: 2rem;
 }
 
-.project-box img {
-   background-image: url(/images/IMG-20180715-WA0060.jpg);
+.project-box .project-1, .project-box .project-2,
+.project-box .project-3, .project-box .project-4,
+.project-box .project-5, .project-box .project-6,
+.project-box .project-7 {
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center center;
-   height: 25rem;
-   width: 25rem;
+   height: 11rem;
    box-shadow: 0 0 1rem #fd0;
+   margin-bottom: 2rem;
+   
 }
 
-.project-box a {
-   text-emphasis: none;
-   color: #000000;
+.project-box .project-1 {
+   background-image: url(../images/carmines-screen.png);
+}
+
+.project-box .project-2 {
+   background-image: url(../images/tonys-screen.png);
+   background-position: top center;
+}
+
+.project-box .project-3 {
+   background-image: url(../images/yoga-screen.png);
+   background-position: center left;
+}
+
+.project-box .project-4 {
+   background-image: url(../images/workout-screen.png);
+}
+
+.project-box .project-5 {
+   background-image: url(../images/animal-screen.png);
+}
+
+/* Media Query - PROJECTS */
+@media (max-width: 576px) {
+   .project-box .project-1, .project-box .project-2,
+.project-box .project-3, .project-box .project-4,
+.project-box .project-5, .project-box .project-6,
+.project-box .project-7 {
+   height: 8rem;
+}
+   
 }
 
 
