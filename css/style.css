@@ -5,7 +5,9 @@
 
 html {
    font-size: 10px;
-   height: 100vh;
+   height: 100%;
+   background-color: #000;
+   border-botom: 2rem solid #CEA11C;
 }
 
 h1 {
@@ -178,15 +180,14 @@ footer {
       font-size: 1.75rem;
       /* letter-spacing: 0; */
    }
+
+   footer {
+      display: none;
+   }
    
 }
 
 @media (max-width: 768px) {
-   html {
-      /* height: 100%; */
-      background-color: #000;
-   }
-
    .jumbotron {
    /* height: 100rem; */
    padding-bottom: 0;
@@ -209,11 +210,6 @@ footer {
       font-size: 1.75rem;
       padding: 0 2.5%;
    }
-   
-   footer {
-      display: none;
-   }
-   
 }
 
 @media (max-width: 576px) {
